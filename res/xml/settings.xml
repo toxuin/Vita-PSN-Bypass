@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ListPreference android:key="lastFirmware"
+                    android:title="Spoof firmware version"
+                    android:summary="Tells your vita that this firmware is the latest">
+    </ListPreference>
+
+    <ListPreference android:key="region"
+                    android:title="Region"
+                    android:summary="Where your Vita was bought?">
+    </ListPreference>
+
+    <EditTextPreference android:key="port"
+                        android:title="Service port"
+                        android:summary="You have to put same port here and on Vita.">
+    </EditTextPreference>
+
+    <Preference android:key="myIp"
+                android:title="Your IP address:"
+                android:summary="Please connect to WIFI">
+    </Preference>
+
+    <Preference android:key="startService"
+                android:title="Start bypass service"
+                android:summary="Starts service that allows you to log in to PSN">
+    </Preference>
+
+    <Preference android:key="stopService"
+                android:title="Stop service"
+                android:summary="Stops running bypass service">
+    </Preference>
+
+    <Preference android:key="refreshData"
+                android:title="Get fresh data from server"
+                android:summary="Updates local firmware database with fresh info from server">
+    </Preference>
+
+</PreferenceScreen>
